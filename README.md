@@ -85,9 +85,8 @@ Returns a URL to link directly to an xMatters Incident. Useful for including in 
 2. Navigate into the new workflow. You will see a list of two forms. Set Sender Permissions on the upper form, Run Flow Step. To do this, click the left most button. Ensure the form is accessible by selecting <b>Web UI</b><br>
   <img src="/media/web_ui.png" width="350"> 
 
- and then <b>Sender Permissions</b>. Add users or roles who can access the form. We recommend allowing all those with _Full Access User_ and _Developer_ roles to use the form. 
- 
-	<kbd>  <img src="/media/sender_permissions.png" width="350"> </kbd>
+ and then <b>Sender Permissions</b>. Add users or roles who can access the form. We recommend allowing all those with _Full Access User_ and _Developer_ roles to use the form. <br>
+ <img src="/media/sender_permissions.png" width="350"> 
 
 The lower form, **Results**, is triggered by the upper form. To deploy it, choose _Enable For Web Service_.
 	
