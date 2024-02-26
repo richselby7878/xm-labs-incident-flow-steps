@@ -56,13 +56,14 @@ As you move down the options, they are AND'd together. We encourage you to read 
 
 	<kbd>  <img src="/media/xmWriteStructuredWorkNote.png" width="250"> </kbd>
 
-Adds a structured timeline note to an xMatters incident matching the key, e.g.  *weather: rainy*. The step avoids repetition, and will not enter a note if it matches the last note entered. This is to avoid the same work note appearing over and over again, e.g. *weather: rainy* followed soon after by another *weather: rainy*. A structured work note is great for storing data, e.g. links to external IDs, in a way that cannot be overwritten by a user via the UI. 
+Adds a structured timeline note to an xMatters incident in the format of key separator value, e.g.  *weather: rainy*. The step avoids repetition, and will not enter a 
+new work note if it matches the last note entered. This is to avoid the same work note appearing over and over again, e.g. *weather: rainy* followed soon after by another *weather: rainy*. A structured work note is good for storing data, e.g. links to external IDs. Unlike an Incident Property, it cannot be overwritten (accidentally or on-purpose) by a user via the UI. Of course, a new note could be manually entered in the same format if manual updates are required.  
 
 *	**xM Get Structured Work Note**
 
 	<kbd>  <img src="/media/xmGetStructuredWorkNote.png" width="250"> </kbd>
 
-After writing a structured work note, you'll probably want to get it. 
+After writing a structured work note, you'll probably want to get it. Enter the key and the separator, and the previous value (if any) is returned.
 
 *	**xM Remove Service from Incident**
 
