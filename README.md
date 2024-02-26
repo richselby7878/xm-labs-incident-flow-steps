@@ -80,8 +80,8 @@ Returns a URL to link directly to an xMatters Incident. Useful for including in 
 
 
 # Installation
-1. Log into xMatters as a user with either the Developer or Full Access User role. Navigate to Workflows, click the Import button on the top right and import the  [xMattersIncidentFlowSteps.zip](xMattersIncidentFlowSteps.zip) file. This is what you will see in the list of workflows.
-	<kbd>  <img src="/media/incident_flow_steps.png" width="900"> </kbd>
+1. Log into xMatters as a user with either the Developer or Full Access User role. Navigate to Workflows, click the Import button on the top right and import the  [xMattersIncidentFlowSteps.zip](xMattersIncidentFlowSteps.zip) file. This is what you will see in the list of workflows:
+	<kbd>  <img src="/media/incident_flow_steps.png" width="800"> </kbd>
 	
 2. Navigate into the new workflow. You will see a list of two forms. Set Sender Permissions on the upper form, Run Flow Step. To do this, click the left most button. Ensure the form is accessible by selecting <b>Web UI</b><br>
   <img src="/media/web_ui.png" width="350"> 
