@@ -15,7 +15,7 @@ The steps come packaged in a workflow with a tester form called *Run Flow Step*.
 * If you don't have an xMatters instance, [try one for free](https://www.xmatters.com/free)!
 
 # Files
-* [xMattersIncidentFlowSteps.zip](xMattersIncidentFlowSteps.zip) - an xMatters workflow zip containing 2 forms, 1 flow canvas and 6 custom flow steps.
+* [xMattersIncidentFlowSteps.zip](xMattersIncidentFlowSteps.zip) - an xMatters workflow zip containing 2 forms, 1 flow canvas and 6 custom flow steps. Do not inflate the zip file. See Installation instructions below.
 
 # Incident Flow Steps
 The new flow steps are...
