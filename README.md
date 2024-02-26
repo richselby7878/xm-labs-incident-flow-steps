@@ -47,9 +47,9 @@ P.S. Learn about Incident Types in xMatters [here](https://help.xmatters.com/ond
 
 	<kbd>  <img src="/media/xmSearchIncidents.png" width="250"> </kbd>
 	
-Find one or more xMatters Incidents. A comprehensive step that lets you search by many different properties. The list includes Status (e.g In Progress), Severity (e.g. Critical), Incident ID, Summary, Description, Incident Type, Impacted Services, and custom property key/value pairs.
+Find one or more xMatters Incidents in your xMatters instance. A comprehensive step that lets you search for Incidents by many different propertiesm including Status (e.g In Progress), Severity (e.g. Critical), Incident ID, Summary, Description, Incident Type, Impacted Services, and custom property key/value pairs.
 
- As you move down the options, they are AND'd together. We encourage you to read the API notes for [xMAPI Get Incidents](https://help.xmatters.com/xmapi/index.html#incidents) to understand the various options. N.B. After the API returns data, the step filters the returned data from xMAPI to further check for Incident Type and Incident Property key/value pairs. The step returns a list of Incident IDs and a count
+As you move down the options, they are AND'd together. We encourage you to read the API notes for [xMAPI Get Incidents](https://help.xmatters.com/xmapi/index.html#incidents) to understand how the various options work. N.B. After xMAPI returns data, the step filters the returned data API to further check for *Incident Type* and Incident Property key/value pairs. The step returns a list of Incident IDs and a count, which can be ordered as you wish. 
 
 
 *	**xM Write Structured Work Note**
