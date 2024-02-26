@@ -110,11 +110,11 @@ Choose which step to run in the first dropdown.  Each step has it’s own corres
 
 <kbd>  <img src="/media/run_flow_step_form.png" width="500"> </kbd>
 	
-OPTIONAL: At the bottom of the form, if you want, you can set yourself as a Recipient. When you click Send Message, you will get an initial email notification confirming the flow has been started. A short while later, a second email will arrive with the step’s output values clearly shown. Alternatively, you can view the output either in the Alert Report
+OPTIONAL: At the bottom of the form, if you want, you can set yourself as a Recipient. When you click Send Message, you will get an initial email notification confirming the flow has been started. A short while later, a second email will arrive with the step’s output values clearly shown. Alternatively, you can view the output either in the Alert Report:
 
 <kbd>  <img src="/media/alerts_report.png" width="900"> </kbd>
 
-Or in the Activity Log of the Run Flow Step canvas.
+Or in the Activity Log of the Run Flow Step canvas:
 
 
 <kbd>  <img src="/media/activity_log.png" width="900"> </kbd>
@@ -124,4 +124,4 @@ Navigate to xMatters Incident Flow Steps > Flow Designer tab > Run Flow Step can
 
 
 
-You are also able to view the source of each step by opening it from the CUSTOM steps palette and selecting the step's SCRIPT tab. As with all xMatters custom steps, the scripting language is JavaScript running in the xMatters cloud environment rather than on the browser.
+You are also able to view the source of each step by opening it from the CUSTOM steps palette and selecting the step's SCRIPT tab. As with all xMatters custom steps, the scripting language is JavaScript but executed in the xMatters cloud environment rather than on your browser. 
