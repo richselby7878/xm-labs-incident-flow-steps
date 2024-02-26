@@ -39,7 +39,7 @@ Provided the Incident properties exist, you will see them in the output, in addi
 
 However, if you don't want to do this, we have your back. You also get an output called propertiesObject which bundles all Incident properties into an object of key-value pairs. This is easy to parse in a subsequent flow step.
 
-<img src="/media/propertiesObject.png" width="250">
+<img src="/media/propertiesObject.png" width="500">
 
 P.S. Learn about Incident Types in xMatters [here](https://help.xmatters.com/ondemand/incidentmgmt/incident-types.htm)
 
@@ -87,6 +87,7 @@ Returns a URL to link directly to an xMatters Incident. Useful for including in 
 	<kbd>  <img src="/media/web_ui.png" width="350"> </kbd>
 
  and then <b>Sender Permissions</b>. Add users or roles who can access the form. We recommend allowing all those with _Full Access User_ and _Developer_ roles to use the form. 
+ 
 	<kbd>  <img src="/media/sender_permissions.png" width="350"> </kbd>
 
 The lower form, **Results**, is triggered by the upper form. To deploy it, choose _Enable For Web Service_.
