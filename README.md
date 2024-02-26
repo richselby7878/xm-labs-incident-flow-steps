@@ -91,10 +91,10 @@ After, set <b>Sender Permissions</b>. Add users or roles who can access the form
 
 The lower form, **Results**, is triggered by the upper form. To deploy it, choose _Enable For Web Service_.
 	
-3. OPTIONAL. By default, only the user who imports the workflow has permission to use and modify the custom steps within the workflow. We recommend broadening permissions to allow all those with the Developer role to use and/or edit your new flow steps. To do this, highlight the FLOW DESIGNER tab to the right of FORMS. Open the Run Flow Step flow canvas. 
+3. OPTIONAL. By default, only the user who imports the workflow has permission to use and modify the custom steps within the workflow. We recommend broadening permissions to allow all those with the _Developer_ role to use and/or edit your new flow steps. To do this, highlight the FLOW DESIGNER tab to the right of FORMS. Open the *Run Flow Step* flow canvas:
 	<kbd>  <img src="/media/run_flow_step_canvas.png" width="900"> </kbd>
 	
-4. To the right of the screen on the Palette, highlight the CUSTOM tab. Navigate to each new flow step in turn. Click the gear icon then <b>Usage Permissions</b>. In the pop-up window, grant ACCESS to other users/roles as required, e.g. select the Developer role and grant permission to Edit Step.
+4. To the right of the screen on the Palette, highlight the CUSTOM tab. Navigate to each new flow step in turn. Click the gear icon then <b>Usage Permissions</b>. In the pop-up window, grant ACCESS to other users/roles as required, e.g. select the Developer role and grant permission to Edit Step:
 
 	<kbd>  <img src="/media/step_usage_permissions.png" width="500"> </kbd>
 
