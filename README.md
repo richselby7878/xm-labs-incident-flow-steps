@@ -1,7 +1,7 @@
 # Incident Flow Steps
 A collection of 6 custom flow steps for working with xMatters Incidents in xMatters Flow Designer. 
 
-The steps come packaged in a workflow with a tester form called *Run Flow Step*. You can try out each step by filling in the appropriate form section in a messaging form then view the output either directly in the flow's activity log or in an alert notification.
+The steps come packaged in a workflow with a tester form called *Run Flow Step*. You can try out each step by filling in the appropriate section of a messaging form then view the output either directly in the flow's activity log or in an alert notification.
 
 ---------
 <kbd>
