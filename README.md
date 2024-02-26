@@ -25,7 +25,7 @@ The new flow steps are...
 	
 An enhanced version of the built-in Get Incident step. It outputs all the usual details of an xMatters Incident *plus custom Incident properties* and Incident Type, e.g. Application, Site, Platform, Region, Business Impact Asessment. 
 
-N.B. YOU MUST EDIT THE STEP DEFINITION ADD AN OUTPUT FOR EACH NAMED PROPERTY. AND OF COURSE, THE INCIDENT NEEDS TO HAVE THE PROPERTIES! For example, suppose you have defined an Incident Type called Scary Incident, and this Incident Type has custom properties called Incident Level, Region and Company. 
+N.B. YOU MUST EDIT THE STEP DEFINITION TO ADD AN OUTPUT FOR EACH NAMED PROPERTY. AND OF COURSE, THE INCIDENT NEEDS TO HAVE THE PROPERTIES! For example, suppose you have defined an Incident Type called Scary Incident, and this Incident Type has custom properties called Incident Level, Region and Company. 
 
 <img src="/media/scaryIncident.png" width="900">
 
