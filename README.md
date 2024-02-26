@@ -1,7 +1,7 @@
 # Incident Flow Steps
 A collection of 6 custom flow steps for working with xMatters Incidents in xMatters Flow Designer. 
 
-The steps come packaged in a workflow with a tester form called Run Flow Step. You can try out each step by filling in the appropriate form section in a messaging form then view the output either directly in the flow activity log or in an alert notification.
+The steps come packaged in a workflow with a tester form called *Run Flow Step*. You can try out each step by filling in the appropriate form section in a messaging form then view the output either directly in the flow's activity log or in an alert notification.
 
 ---------
 <kbd>
@@ -15,7 +15,7 @@ The steps come packaged in a workflow with a tester form called Run Flow Step. Y
 * If you don't have an xMatters instance, [try one for free](https://www.xmatters.com/free)!
 
 # Files
-* [xMattersIncidentFlowSteps.zip](xMattersIncidentFlowSteps.zip) - an xMatters workflow zip )containing 2 forms, 1 flow canvas and 6 custom flow steps.
+* [xMattersIncidentFlowSteps.zip](xMattersIncidentFlowSteps.zip) - an xMatters workflow zip containing 2 forms, 1 flow canvas and 6 custom flow steps.
 
 # Incident Flow Steps
 The new flow steps are...
@@ -26,21 +26,17 @@ The new flow steps are...
 An enhanced version of the built-in Get Incident step. It outputs all the usual details of an xMatters Incident *plus custom Incident properties* and Incident Type, e.g. Application, Site, Platform, Region, Business Impact Asessment. 
 
 N.B. YOU MUST ADD AN OUTPUT FOR EACH NAMED PROPERTY. AND OF COURSE, THE INCIDENT NEEDS TO HAVE THE PROPERTIES! For example, suppose you have defined an Incident Type called Scary Incident, and this Incident Type has custom properties called Incident Level, Region and Company. 
-
-	<img src="/media/scaryIncident.png" width="250">
+<img src="/media/scaryIncident.png" width="250">
 
 Update the step configuration and add outputs called Scary Incident, Region and Company. 
-
-	<img src="/media/defineOutputs.png" width="250">
+<img src="/media/defineOutputs.png" width="250">
 	
 Provided the Incident properties exist, you will see them in the output, in addition to all the regular Get Incident outputs.
-
-	<img src="/media/stepOutputs.png" width="250">
+<img src="/media/stepOutputs.png" width="250">
 
 However, if you don't want to do this, we have your back. You also get an output called propertiesObject which bundles all Incident properties into an object of key-value pairs. This is easy to parse in a subsequent flow step.
+<img src="/media/propertiesObject.png" width="250">
 
-	<kbd>  <img src="/media/propertiesObject.png" width="250"> </kbd>
-	
 P.S. Learn about Incident Types in xMatters [here](https://help.xmatters.com/ondemand/incidentmgmt/incident-types.htm)
 
 *	**xM Search Incidents**
@@ -56,7 +52,7 @@ Find one or more xMatters Incidents. A comprehensive step that lets you search b
 
 	<kbd>  <img src="/media/xmWriteStructuredWorkNote.png" width="250"> </kbd>
 
-Adds a structured timeline note to an xMatters incident matching the key, e.g.  *weather: rainy*. The step avoids repetition, and will not enter a note if it matches the last note entered. This is to avoid the same work note appearing over and over again, e.g. *weather: rainy* followed soon after by another *weather: rainy*. A structured work note is great for storing data, e.g. links to external IDs, in a way that cannot be overwritten by a user in the UI. 
+Adds a structured timeline note to an xMatters incident matching the key, e.g.  *weather: rainy*. The step avoids repetition, and will not enter a note if it matches the last note entered. This is to avoid the same work note appearing over and over again, e.g. *weather: rainy* followed soon after by another *weather: rainy*. A structured work note is great for storing data, e.g. links to external IDs, in a way that cannot be overwritten by a user via the UI. 
 
 *	**xM Get Structured Work Note**
 
@@ -87,7 +83,6 @@ Returns a URL to link directly to an xMatters Incident. Useful for including in 
 	<kbd>  <img src="/media/web_ui.png" width="350"> </kbd>
 
  and then <b>Sender Permissions</b>. Add users or roles who can access the form. We recommend allowing all those with _Full Access User_ and _Developer_ roles to use the form. 
-
 	<kbd>  <img src="/media/sender_permissions.png" width="350"> </kbd>
 
 The lower form, **Results**, is triggered by the upper form. To deploy it, choose _Enable For Web Service_.
@@ -109,7 +104,7 @@ You can try out each new custom step via the **Run Flow Step** messaging form.  
 
 Choose which step to run in the first dropdown.  Each step has it’s own corresponding form section with some demo values in it. You can use the demo values supplied or over-type with your own test values. 
 
-<kbd>  <img src="/media/run_flow_step_form.png" width="900"> </kbd>
+<kbd>  <img src="/media/run_flow_step_form.png" width="500"> </kbd>
 	
 OPTIONAL: At the bottom of the form, if you want, you can set yourself as a Recipient. When you click Send Message, you will get an initial email notification confirming the flow has been started. A short while later, a second email will arrive with the step’s output values clearly shown. Alternatively, you can view the output either in the Alert Report
 
