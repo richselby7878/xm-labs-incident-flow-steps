@@ -27,15 +27,15 @@ An enhanced version of the built-in Get Incident step. It outputs all the usual 
 
 N.B. YOU MUST ADD AN OUTPUT FOR EACH NAMED PROPERTY. AND OF COURSE, THE INCIDENT NEEDS TO HAVE THE PROPERTIES! For example, suppose you have defined an Incident Type called Scary Incident, and this Incident Type has custom properties called Incident Level, Region and Company. 
 
-	<kbd>  <img src="/media/scaryIncident.png" width="250"> </kbd>
+	<img src="/media/scaryIncident.png" width="250">
 
 Update the step configuration and add outputs called Scary Incident, Region and Company. 
 
-	<kbd>  <img src="/media/defineOutputs.png" width="250"> </kbd>
+	<img src="/media/defineOutputs.png" width="250">
 	
 Provided the Incident properties exist, you will see them in the output, in addition to all the regular Get Incident outputs.
 
-	<kbd>  <img src="/media/stepOutputs.png" width="250"> </kbd>
+	<img src="/media/stepOutputs.png" width="250">
 
 However, if you don't want to do this, we have your back. You also get an output called propertiesObject which bundles all Incident properties into an object of key-value pairs. This is easy to parse in a subsequent flow step.
 
